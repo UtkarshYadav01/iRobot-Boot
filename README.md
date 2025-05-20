@@ -37,9 +37,17 @@ COMMAND: MSMMEMM \
 Robot Location: (3,2,E)
 
 
-## Running the Program
+## Steps to Build and Run the Program
 
-To run the project, use the following command in the terminal:
+### Step 1: Build the JAR file
+
+Before running the program, you need to build the project and generate the JAR file. To do this, use the Maven Wrapper (`mvnw`) provided in the project.
+
+```bash
+./mvnw clean package
+```
+
+### Step 2: To run the project, use the following command in the terminal:
 
 ```bash
 java -jar ./target/iRobot-Boot-0.0.1-SNAPSHOT.jar MSMMEMM
