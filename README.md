@@ -43,3 +43,8 @@ To run the project, use the following command in the terminal:
 
 ```bash
 java -jar ./target/iRobot-Boot-0.0.1-SNAPSHOT.jar MSMMEMM
+```
+or add a text file like 'commands.txt' and provide command in the file
+```bash
+java -jar ./target/iRobot-Boot-0.0.1-SNAPSHOT.jar commands.txt
+
