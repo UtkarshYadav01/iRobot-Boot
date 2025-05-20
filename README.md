@@ -36,6 +36,22 @@ This program simulates a robot navigating a 5x4 grid using directional and movem
 COMMAND: MSMMEMM \
 Robot Location: (3,2,E)
 
+## Assumptions
+
+- I have used **Spring Boot** to build this application. While the task could have been accomplished using plain Java, using Spring Boot better reflects the kind of real-world development I do in my current role as a Java developer. We regularly use frameworks like Spring Boot in our projects.
+- Input commands can be passed either as a command-line argument or via a text file (e.g., `commands.txt`) .
+
+---
+
+## External References
+
+- **ChatGPT** was used to:
+    - Format this `README.md` file in a clean and professional way
+    - Generate Javadoc-style method comments
+
+> I did all the core logic, structure, and implementation of the program.
+
+---
 
 ## Steps to Build and Run the Program
 
